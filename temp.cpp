@@ -18,7 +18,7 @@ int main ()
   auto x = mymap[1];
 
   for( auto i : x )
-    cout<<i<<" ";
+    cout<<i<<" , ";
   cout<<endl;
 
   std::cout << std::endl;
