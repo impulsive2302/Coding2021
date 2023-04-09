@@ -13,8 +13,6 @@ int main ()
   mymap[1].push_back( 4 );
   mymap[1].push_back( 5 );
 
-  //mymap.emplace ("NCC-1701-D", "J.L. Picard");``
-  //mymap.emplace ("NCC-74656", "K. Janeway");
   auto x = mymap[1];
 
   for( auto i : x )
